@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "lookatme",
+  "version": "${version}",
+  "name": "LookAtMe",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/lookatme/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.uselessmnemonic.lookatme.client.LookatmeClient"
+    ],
+    "main": [
+      "com.uselessmnemonic.lookatme.Lookatme"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17"
+  }
+}
